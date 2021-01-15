@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About us</title>
+<script src="jquery-3.5.1.min.js"></script>
+	<script  src="main.js" ></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="icon.png"/>
+</head>
+<style>@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(lord.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 80px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -300px;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.image{
+	position: absolute;
+	top: 70vh;
+}
+.description{
+color: red;
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 14px;
+line-height: 24px;
+margin: 0 0 24px;
+ text-align: justify;
+text-justify: inter-word;
+position: absolute;
+right:30vh;
+top:-25vh;
+}</style>
+<body>
+<div class="wrapper">
+	<nav class="navbar">
+		<img class="logo" src="capture12.png">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="movies.html">Movies</a></li>
+			<li><a href="series.html">Series</a></li>
+			<li><a href="https://www.facebook.com/bechir.ghouma.104/">Contact us</a></li>
+		</ul>
+	</nav>
+	<div class="center">
+		<h1>About us</h1>
+<div class="description">
+	<h2>Welcome to CineFreaks ,<br>
+	This website is the creation of<br> Bechir Ghouma & Mehdi Tounsi,<br> two ambitious junior developers<br>
+	from RBK's Cohort11.<br>
+	CineFreaks provides you with informations<br> about Movies & Series in the best way.<br>
+	Sincerely,<br>
+	Bechir Ghouma <br>
+	Mehdi Tounsi </h2>
+	</div>
+	
+</div>
+</body>
+</html>
